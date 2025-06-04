@@ -1,0 +1,18 @@
+
+[
+  {
+    "timestamp": "2025-06-03T00:27:28Z",
+    "alert_id": 1,
+    "action": "classification",
+    "severity": "Medium"
+  },
+  {
+    "timestamp": "2025-06-03T00:27:28Z",
+    "alert_id": 2,
+    "action": "escalation",
+    "decision": "denied",
+    "reason": "insufficient_clearance",
+    "required_clearance": 5,
+    "actual_clearance": 4
+  }
+]

@@ -1,0 +1,11 @@
+
+Alert Received 
+ └─ Classify Alert Severity  
+     ├─ [Severity == High] ➞ High-Severity Branch  
+     │    └─ Check Clearance & Token  
+     │         ├─ If clearance OK ✔ ➞ Escalate Alert  
+     │         └─ If clearance denied ✖ ➞ Log Denial & Flag for review  
+     ├─ [Severity == Medium] ➞ Medium-Severity Branch  
+     │    └─ Route Alert to Tier-2 Support  
+     └─ [Severity == Low] ➞ Low-Severity Branch  
+          └─ Auto-Resolve Alert
